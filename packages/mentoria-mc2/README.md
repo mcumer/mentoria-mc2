@@ -1,6 +1,6 @@
 # MentorIA MC2
 
-Version 0.1.5 · AI mentoring by Michele Cumer (Mikel / MC2).
+Version 0.1.6 · AI mentoring by Michele Cumer (Mikel / MC2).
 
 Find the app in your method.
 

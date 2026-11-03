@@ -1,4 +1,4 @@
-# MentorIA MC2 — testi della scheda 0.1.5
+# MentorIA MC2 — testi della scheda 0.1.6
 
 Snapshot derivato dai manifest il 2026-11-03. Modificare prima i manifest e poi rigenerare questo documento.
 
@@ -63,3 +63,5 @@ Assistenza e condizioni specifiche del prodotto: non attribuite a URL non verifi
 Logo MC2 originale e firma Powered by Grimory preservati. Traduzioni di scheda configurate; il catalogo può non visualizzarle ancora. Dialogo e riepilogo seguono la lingua della persona.
 
 Repository sorgenti confermato: https://github.com/mcumer/mentoria-mc2. Versione 0.1.5: cambia soltanto il riferimento al repository nei pacchetti.
+
+0.1.6: icona Claude dichiarata sullo stesso logo MC2 originale, senza cambiare metadati autore o metodo.

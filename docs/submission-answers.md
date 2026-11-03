@@ -1,6 +1,6 @@
 # MentorIA MC2 — draft answers for submission
 
-Prepared 2026-11-03 from the repository 0.1.5 candidate and the verified public
+Prepared 2026-11-03 from the repository 0.1.6 candidate and the verified public
 contact pages. These are draft factual answers, not completed portal fields,
 legal attestations or a declaration of compliance.
 

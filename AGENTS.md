@@ -8,7 +8,7 @@
   la precedente cartella `grimory-app-mentoring` resta storica, senza sviluppi
   paralleli. Nessun altro repository, branch o worktree.
 - Il repository inizialmente vuoto usa la struttura packages/mentoria-mc2;
-  per Anthropic il plugin path è quello. Manifest 0.1.5 con repository reale.
+  per Anthropic il plugin path è quello. Manifest corrente 0.1.6 con repository reale e icona Claude originale.
 - Commit/push e preparazione delle candidature sono nello scope corrente;
   le precedenti restrizioni SOLO FILE sono storico e non revocano questa
   autorizzazione. Non installare copie personali come effetto collaterale.

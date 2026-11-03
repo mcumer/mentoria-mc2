@@ -1,6 +1,6 @@
 # MentorIA MC2 — passaggio al repository e ai cataloghi
 
-Preparato il 2026-11-03. Versione candidata **0.1.5**. Questo è un handoff,
+Preparato il 2026-11-03. Versione candidata **0.1.6**. Questo è un handoff,
 non una dichiarazione di approvazione o una richiesta già inviata.
 
 ## Prima scelta ancora necessaria
@@ -18,7 +18,7 @@ pacchetto attuale non inventa uno di questi valori.
 
 ## OpenAI · ChatGPT e Codex
 
-- [ZIP locale 0.1.4](../dist/mentoria-mc2-0.1.5.zip).
+- [ZIP locale 0.1.4](../dist/mentoria-mc2-0.1.6.zip).
 - Contiene manifest radice portabile, overlay Codex/Claude, logo e due skill.
   Nessuna app privata, MCP, credenziale o script runtime.
 - Nei [Plugins](https://platform.openai.com/plugins) scegliere organizzazione,

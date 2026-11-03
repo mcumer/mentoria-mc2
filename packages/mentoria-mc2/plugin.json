@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "mentoria-mc2",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "AI mentoring for experts and course creators: explore apps around your method, compare alternatives and define a first version. Optional personal help through a separate web form; you review and submit any summary yourself. By Michele Cumer. Developed by Grimory.ai. Powered by Grimory.",
   "author": {
     "name": "Grimory.ai"
@@ -40,7 +40,7 @@
         ]
       },
       "publication": {
-        "release_notes": "Publish maintained sources at mcumer/mentoria-mc2 and add the verified repository URL. Preserve the optional personal-help flow, multilingual listing and skills-only architecture.",
+        "release_notes": "Bundle the existing original MC2 logo at the Claude directory icon path. Preserve the repository, multilingual listing, optional personal-help flow and skills-only architecture.",
         "translations": {
           "it-IT": {
             "subtitle": "Scopri quale app creare",

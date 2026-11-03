@@ -15,7 +15,8 @@ Il caso IT ha caricato la sorgente candidata soltanto per la sessione con
 --plugin-dir, senza persistenza sessione e con strumenti limitati a Read/Skill.
 Nessun MCP o azione esterna. Il client ha restituito:
 Failed to authenticate: OAuth session expired and could not be refreshed.
-L'output registra zero token di input/output e zero costo API. Questo non
+L'output locale, conservato nella precedente cartella sorgente e non incluso
+nel repository pubblico, registra zero token di input/output e zero costo API. Questo non
 dimostra l'esecuzione del metodo, il caricamento effettivo delle skill da parte
 del modello o la qualità delle risposte. Nessun tentativo di rinnovo automatico.
 

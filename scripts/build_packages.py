@@ -94,6 +94,9 @@ def main():
     assert png[:8] == b'\x89PNG\r\n\x1a\n'
     width, height = struct.unpack('>II', png[16:24])
     assert width == height and width >= 256 and len(png) <= 5 * 1024 * 1024
+    if (PACKAGE / '.claude-plugin/icon.png').exists():
+        assert (PACKAGE / '.claude-plugin/icon.png').read_bytes() == png
+        assert 512 <= width <= 2048 and len(png) < 2 * 1024 * 1024
     check_links(PACKAGE)
 
     # Export only link adaptations; keep the actual method in the two skills.

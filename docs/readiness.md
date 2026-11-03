@@ -1,4 +1,4 @@
-# MentorIA MC2 — candidata repository 0.1.5
+# MentorIA MC2 — candidata repository 0.1.6
 
 Aggiornato: **2026-11-03**. Stato: candidata locale verificata nel formato,
 **non pronta da dichiarare pubblicata o approvata**. Repository scelto: https://github.com/mcumer/mentoria-mc2.
@@ -18,7 +18,7 @@ installazione personale.
   gratuità, agenda, prezzo o disponibilità.
 - Nome MentorIA MC2, autore commerciale Michele Cumer, sviluppatore richiesto
   Grimory.ai, logo originale e Powered by Grimory preservati.
-- Manifest portabile e overlay Claude/Codex allineati alla 0.1.5, description
+- Manifest portabile e overlay Claude/Codex allineati alla 0.1.6, description
   entro 500 caratteri. Scheda inglese con descrizioni italiano/spagnolo.
 - Pagina prodotto, tre moduli e privacy pubblica del modulo letti via HTTPS
   il 2026-11-03. Nessun nuovo invio di prova: si verifica il contenuto pubblico,
@@ -45,7 +45,8 @@ restituito **OAuth session expired and could not be refreshed**, prima di
 qualunque inferenza: zero token di input/output, nessun risultato della skill.
 La prova è quindi **bloccata**, non PASS. Gli altri cinque casi non sono stati
 eseguiti, evitando tentativi ripetuti con la stessa autenticazione scaduta.
-Evidenza sintetica in `evaluation/README.md`; output CLI in quella cartella.
+Evidenza sintetica in `evaluation/README.md`; output CLI originale conservato
+nella precedente cartella locale e non incluso nel repository pubblico.
 Non sono state avviate autenticazioni o cambiate impostazioni dell'account.
 
 ## Rimane prima dei cataloghi
@@ -76,7 +77,7 @@ questo plugin non possiede. Anthropic richiede README e licenza per il catalogo.
 
 La fonte è la cartella locale, non la cache installata. Il sito distribuisce
 ancora i materiali 0.1.3: non è stato modificato né deployato in questo task.
-La 0.1.5 è in `dist/` e si consegna per la candidatura, non per aggiornare
+La 0.1.6 è in `dist/` e si consegna per la candidatura, non per aggiornare
 silenziosamente un plugin nell'account. Google resta la seconda fase; avere
 un export locale non dimostra pubblicazione né compatibilità online attuale.
 
@@ -86,3 +87,12 @@ Il dialogo multilingue resta distinto dalle etichette dell'interfaccia host.
 
 Passi esatti: [publication-next-steps.md](publication-next-steps.md).
 Storico precedente: [readiness-through-0.1.3.md](readiness-through-0.1.3.md).
+
+## Esito effettivo dei portali · 2026-11-03
+
+Repository e sorgenti già pushati su main. OpenAI richiede la verifica
+Individual/Business dell'identità prima di consentire l'upload; nessun upload
+eseguito. Anthropic ha validato il commit iniziale 83ed573: blocco licenza,
+policy hold sull'autore Grimory.ai e warning icona. L'icona è corretta nella
+0.1.6 con il file standard; la licenza richiede la scelta del proprietario.
+Dettaglio, scope e stato: [publication-status.md](publication-status.md).

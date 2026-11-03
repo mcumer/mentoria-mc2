@@ -1,6 +1,6 @@
 # MentorIA MC2 — product information
 
-Version: 0.1.5 (Gemini skill export).
+Version: 0.1.6 (Gemini skill export).
 
 MC2 mentoring and services: [mikelmc2.com](https://mikelmc2.com).
 
