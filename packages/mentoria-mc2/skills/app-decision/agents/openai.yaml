@@ -1,0 +1,4 @@
+interface:
+  display_name: "Choose an app and first version"
+  short_description: "Compare ideas and define a focused first version"
+  default_prompt: "Use $app-decision with my existing business context to compare app ideas and scope a focused first version."

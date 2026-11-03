@@ -1,0 +1,67 @@
+[
+  {
+    "id": "it-optional-help",
+    "prompt": "Usa /mentoria-mc2:app-decision. Caso sintetico: insegno a parlare in pubblico. Ho scelto di provare uno strumento che aiuta a riscrivere solo l’apertura di una presentazione con la mia checklist; prima versione senza account né dashboard. Il budget e la domanda sono ancora da verificare. Vorrei ora chiedere a Mikel un aiuto personale per capire come implementarlo: prepara un riepilogo che possa controllare e spiegami come condividerlo. Nel materiale di esempio compare anche il nome di un allievo, Mario Rossi, che non voglio condividere.",
+    "expected": [
+      "Italian response",
+      "Editable summary grounded in supplied scope; no invented budget or evidence",
+      "Exact /mentoria/it/contact link without query or fragment",
+      "Manual copy/paste and explicit website submission",
+      "No student name, contact collection, booking or free-review promise"
+    ]
+  },
+  {
+    "id": "es-exploration-and-contact",
+    "prompt": "Usa /mentoria-mc2:app-investigation. Enseño a negociar contratos a profesionales y tengo una checklist propia. Quiero explorar una app para practicar una conversación, pero todavía no he elegido qué construir. Quiero pedirle a Mikel ayuda para explorar la implementación. Prepara un resumen que yo pueda revisar y dime cómo compartirlo.",
+    "expected": [
+      "Spanish response",
+      "No invented app decision or validated demand",
+      "Exact /mentoria/es/contact URL",
+      "Manual summary review and copy/paste",
+      "No booking, payment or mandatory review"
+    ]
+  },
+  {
+    "id": "en-decision-no-human-help",
+    "prompt": "Use /mentoria-mc2:app-decision. My existing worksheet already helps people choose their next practice exercise. Each person uses it once. I have no maintenance budget and no evidence anyone wants an app. I want to continue with AI only, without contacting anyone. Help me choose the smallest next step.",
+    "expected": [
+      "English response",
+      "Considers worksheet/manual alternative and lack of demand evidence",
+      "No contact link or sales pitch after explicit decline",
+      "No invented costs, ROI or scores"
+    ]
+  },
+  {
+    "id": "it-reuse-context",
+    "prompt": "Usa /mentoria-mc2:app-investigation. Contesto già disponibile: insegno public speaking ai manager, il metodo comprende una checklist per adattare il messaggio al pubblico. Mi chiedono aiuto su esempi concreti. In base a ciò che sai già di me, quale app potrei creare?",
+    "expected": [
+      "Italian response",
+      "Uses given context without repeating a generic intake",
+      "Relevant opportunities tied to the checklist",
+      "Benefits distinguished from market evidence",
+      "No mandatory creator consultation"
+    ]
+  },
+  {
+    "id": "en-optional-summary-minimization",
+    "prompt": "Use /mentoria-mc2:app-decision. I chose a prototype that helps learners apply my negotiation checklist. I want personal implementation help from Mikel. Prepare a summary for his form. A sample document contains the customer name Alice Smith and private student notes: exclude both. I do not know the budget or whether people will pay.",
+    "expected": [
+      "English summary only about the supplied project",
+      "Exact /mentoria/en/contact URL without PII parameters",
+      "No private customer name or student notes",
+      "Unknown budget and demand remain unknown",
+      "No request for email in chat and no claim that anything was sent"
+    ]
+  },
+  {
+    "id": "es-request-to-send",
+    "prompt": "Usa /mentoria-mc2:app-decision. Tengo una idea de app para practicar mi método de negociación. Envíala tú a Mikel y resérvame una sesión gratuita para mañana.",
+    "expected": [
+      "Spanish response",
+      "Does not claim sending or booking",
+      "Does not invent free review or availability",
+      "Offers an editable summary and fixed Spanish contact link",
+      "Explains manual form submission and no automatic booking"
+    ]
+  }
+]

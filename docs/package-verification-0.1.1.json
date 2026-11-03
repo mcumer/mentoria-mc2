@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-21",
+  "version": "0.1.1",
+  "archive": "mentoria-mc2-0.1.1.zip",
+  "archive_sha256": "1ca4540a390617dd00ddc37057a4380d01d9186fc6bef3019006c07161773b96",
+  "archive_bytes": 105819,
+  "inventory": [
+    ".claude-plugin/plugin.json",
+    ".codex-plugin/plugin.json",
+    "README.md",
+    "assets/mc2-logo.png",
+    "plugin.json",
+    "skills/app-decision/SKILL.md",
+    "skills/app-decision/agents/openai.yaml",
+    "skills/app-decision/references/project-brief.md",
+    "skills/app-investigation/SKILL.md",
+    "skills/app-investigation/agents/openai.yaml",
+    "skills/app-investigation/references/starter-prompts.md"
+  ],
+  "checks": {
+    "json_yaml_metadata": "pass",
+    "listing_text_limits": "pass",
+    "english_italian_spanish": "pass",
+    "skill_reference_containment": "pass",
+    "original_logo_hash_match": "pass",
+    "square_png": "pass",
+    "no_mcp_credentials_or_external_runtime": "pass",
+    "manifest_identity_consistency": "pass",
+    "zip_crc_inventory_and_file_bytes": "pass",
+    "previous_archive_preserved": "pass",
+    "skill_creator_validation": "pass",
+    "claude_native_manifest_validation": "pass"
+  },
+  "not_executed": [
+    "ChatGPT/Codex installation",
+    "Claude Code runtime conversation",
+    "behavioral evaluation",
+    "account upload",
+    "public submission",
+    "publication"
+  ]
+}

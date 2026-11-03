@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "version": "0.1.3",
+  "archive": "mentoria-mc2-0.1.3.zip",
+  "archive_sha256": "99d52c5bafbdf507d560e8c8185e619161794f3d3441e97320f1cc14e48d8288",
+  "archive_bytes": 107015,
+  "inventory": [
+    ".claude-plugin/plugin.json",
+    ".codex-plugin/plugin.json",
+    "README.md",
+    "assets/mc2-logo.png",
+    "plugin.json",
+    "skills/app-decision/SKILL.md",
+    "skills/app-decision/agents/openai.yaml",
+    "skills/app-decision/references/project-brief.md",
+    "skills/app-investigation/SKILL.md",
+    "skills/app-investigation/agents/openai.yaml",
+    "skills/app-investigation/references/starter-prompts.md"
+  ],
+  "description_characters": 312,
+  "claude_description_limit": 500,
+  "openai_long_description_characters": 713,
+  "checks": {
+    "claude_description_limit_all_manifests": "pass",
+    "json_yaml_metadata": "pass",
+    "references_containment": "pass",
+    "developer_and_website_preserved": "pass",
+    "skills_and_resources_byte_identical_to_0.1.2": "pass",
+    "default_prompts_and_full_listing_preserved": "pass",
+    "translations_preserved": "pass",
+    "logo_preserved": "pass",
+    "manifest_consistency": "pass",
+    "zip_crc_inventory_and_contents": "pass",
+    "claude_native_manifest_validation": "pass"
+  },
+  "not_executed": [
+    "claude.ai upload validation",
+    "installation",
+    "behavioral evaluation",
+    "account update",
+    "public submission",
+    "public publication"
+  ],
+  "requested_scope": "local files and ZIP only"
+}

@@ -1,0 +1,22 @@
+{
+  "claude_strict_from_zip": {
+    "status": "pass",
+    "output": "Validation passed on the extracted 0.1.4 archive (temporary local path omitted)."
+  },
+  "app-investigation_from_zip": {
+    "status": "pass",
+    "output": "Skill is valid!"
+  },
+  "app-decision_from_zip": {
+    "status": "pass",
+    "output": "Skill is valid!"
+  },
+  "json_yaml_parsing": "pass",
+  "fixed_localized_urls_without_pii_parameters": "pass",
+  "archive_text_secret_and_local_path_scan": "pass",
+  "no_git_repository_created": "pass",
+  "behavioral": {
+    "it-optional-help": "blocked: Claude OAuth expired before inference",
+    "remaining_five": "not run: same authentication dependency"
+  }
+}

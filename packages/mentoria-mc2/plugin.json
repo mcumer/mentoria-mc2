@@ -1,0 +1,59 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mentoria-mc2",
+  "version": "0.1.5",
+  "description": "AI mentoring for experts and course creators: explore apps around your method, compare alternatives and define a first version. Optional personal help through a separate web form; you review and submit any summary yourself. By Michele Cumer. Developed by Grimory.ai. Powered by Grimory.",
+  "author": {
+    "name": "Grimory.ai"
+  },
+  "keywords": [
+    "mentoring",
+    "course-creators",
+    "app-discovery"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MentorIA MC2",
+        "shortDescription": "Find the app in your method",
+        "longDescription": "AI-guided mentoring by Michele Cumer for experts, educators and course creators. Discover which app could help your audience apply your method, compare ideas and define a focused first version, including simpler alternatives when appropriate.\n\nMentorIA uses relevant user and business context your AI host already makes available, together with what you share. Conversation and project briefs follow your language, including English, Italian and Spanish. It provides planning guidance, not app development, verified market demand or guaranteed business results.\n\nThe AI mentoring is complete on its own. If you ask for personal review or implementation help, MentorIA can prepare an editable summary and point you to Mikel's separate contact form in your language. You choose what to share, copy and paste it, and submit it yourself. Contact does not automatically include a free review, book a session or purchase a service.\n\nThis skills-only plugin has no MCP server, external login, account access or connection to Grimory or SnakeMember. It does not send the summary or save business profiles. The optional website form has its own privacy notice and processing; your AI host's data rules also apply.\n\nMC2 mentoring and services: https://mikelmc2.com\nDeveloped by Grimory.ai. Powered by Grimory.",
+        "developerName": "Grimory.ai",
+        "category": "Business & Operations",
+        "capabilities": [],
+        "logo": "./assets/mc2-logo.png",
+        "composerIcon": "./assets/mc2-logo.png",
+        "defaultPrompt": [
+          "Based on what you already know about me and my business, which app could I create around my method?",
+          "I have an app idea. Help me compare it with simpler alternatives.",
+          "Help me turn my chosen app idea into a focused first-version project brief."
+        ],
+        "websiteURL": "https://mikelmc2.com/mentoria/en",
+        "privacyPolicyURL": "https://mikelmc2.com/privacidad#mentoria-contact"
+      },
+      "review": {
+        "prompts": [
+          "I teach a public-speaking method. Based on the context I shared, which app could help students apply it?",
+          "I have three app ideas and limited time. Compare them, including whether a simpler solution is better.",
+          "Prepare a focused first-version brief for the idea I chose, without inventing market data or implementation costs.",
+          "Vorrei chiedere a Mikel un aiuto personale: prepara un riepilogo che possa rivedere e spiegami come condividerlo.",
+          "Quiero seguir solo con la mentoría de IA, sin contactar a nadie. Ayúdame a definir el siguiente paso."
+        ]
+      },
+      "publication": {
+        "release_notes": "Publish maintained sources at mcumer/mentoria-mc2 and add the verified repository URL. Preserve the optional personal-help flow, multilingual listing and skills-only architecture.",
+        "translations": {
+          "it-IT": {
+            "subtitle": "Scopri quale app creare",
+            "description": "Una mentoría con AI di Michele Cumer per esperti, formatori e creatori di corsi. Scopri quale app può aiutare il tuo pubblico ad applicare il tuo metodo, confronta le idee e definisci una prima versione essenziale, considerando anche alternative più semplici.\n\nMentorIA usa il contesto pertinente su di te e sul tuo business già disponibile nella piattaforma AI, insieme a ciò che condividi. Dialogo e scheda progetto seguono la tua lingua. Offre supporto alla progettazione, non sviluppo, domanda di mercato verificata o risultati economici garantiti.\n\nLa mentoría AI è completa di per sé. Se chiedi una revisione personale o aiuto per implementare, MentorIA può preparare un riepilogo modificabile e indicarti il modulo separato per contattare Mikel in italiano. Scegli cosa condividere, copi e incolli il testo e invii tu il modulo. Il contatto non include automaticamente una revisione gratuita, non prenota una sessione e non acquista un servizio.\n\nIl plugin contiene solo skill: nessun server MCP, login esterno, accesso agli account o collegamento a Grimory o SnakeMember. Non invia il riepilogo e non salva profili del business. Il modulo sul sito ha una propria informativa e gestione dei dati; valgono anche le regole della piattaforma AI.\n\nMentoría e servizi MC2: https://mikelmc2.com\nSviluppato da Grimory.ai. Powered by Grimory."
+          },
+          "es-ES": {
+            "subtitle": "Descubre qué app crear",
+            "description": "Una mentoría con IA de Michele Cumer para expertos, formadores y creadores de cursos. Descubre qué app puede ayudar a tu público a aplicar tu método, compara ideas y define una primera versión sencilla, considerando también alternativas más simples.\n\nMentorIA usa el contexto relevante sobre ti y tu negocio que la plataforma de IA ya tiene disponible, junto con lo que compartes. La conversación y el documento de proyecto siguen tu idioma. Ofrece orientación, no desarrollo, demanda de mercado verificada ni resultados económicos garantizados.\n\nLa mentoría con IA es completa por sí sola. Si pides una revisión personal o ayuda para implementar, MentorIA puede preparar un resumen editable e indicar el formulario independiente para contactar con Mikel en español. Tú eliges qué compartir, copias y pegas el texto y envías el formulario. El contacto no incluye automáticamente una revisión gratuita, no reserva una sesión ni compra un servicio.\n\nEl plugin contiene solo skills: sin servidor MCP, login externo, acceso a cuentas ni conexión con Grimory o SnakeMember. No envía el resumen ni guarda perfiles del negocio. El formulario web tiene su propia información y gestión de privacidad; también se aplican las reglas de la plataforma de IA.\n\nMentoría y servicios MC2: https://mikelmc2.com\nDesarrollado por Grimory.ai. Powered by Grimory."
+          }
+        }
+      }
+    }
+  },
+  "homepage": "https://mikelmc2.com",
+  "repository": "https://github.com/mcumer/mentoria-mc2"
+}

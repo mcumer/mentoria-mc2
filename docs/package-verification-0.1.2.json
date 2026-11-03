@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "version": "0.1.2",
+  "archive": "mentoria-mc2-0.1.2.zip",
+  "archive_sha256": "255a21ab852ba2cf48329b807b6bbc1b4f31c711ca0e9ffd5c52ce367d8aeb43",
+  "archive_bytes": 107104,
+  "inventory": [
+    ".claude-plugin/plugin.json",
+    ".codex-plugin/plugin.json",
+    "README.md",
+    "assets/mc2-logo.png",
+    "plugin.json",
+    "skills/app-decision/SKILL.md",
+    "skills/app-decision/agents/openai.yaml",
+    "skills/app-decision/references/project-brief.md",
+    "skills/app-investigation/SKILL.md",
+    "skills/app-investigation/agents/openai.yaml",
+    "skills/app-investigation/references/starter-prompts.md"
+  ],
+  "metadata_update_archive": {
+    "name": "mentoria-mc2-0.1.2-metadata-update.zip",
+    "sha256": "3d749960946ac6c6a260baa9a20d701c31fb9c75474f466a77c69cf1f685855e",
+    "bytes": 5948,
+    "files": 4
+  },
+  "checks": {
+    "json_yaml_metadata": "pass",
+    "listing_text_limits": "pass",
+    "english_italian_spanish": "pass",
+    "references_containment": "pass",
+    "developer_and_website": "pass",
+    "original_logo_preserved": "pass",
+    "all_skills_byte_identical_to_0.1.1": "pass",
+    "default_prompts_preserved": "pass",
+    "no_runtime_or_connection_added": "pass",
+    "manifest_consistency": "pass",
+    "zip_crc_inventory_and_contents": "pass",
+    "previous_archive_preserved": "pass",
+    "claude_native_manifest_validation": "pass",
+    "final_local_archive_matches_source": "pass"
+  },
+  "not_executed": [
+    "behavioral evaluation",
+    "public submission",
+    "public publication"
+  ],
+  "online_update": {
+    "status": "performed_before_user_scope_correction",
+    "plugin_id": "Plugin_be61880bd84c8191905f3b9bd156290b",
+    "release_id": "pluginrel_6ad9e1c8ecbc81918c4360f1e44de8d6",
+    "note": "Unrequested online update disclosed to user. User clarified FILES ONLY; no further online actions."
+  },
+  "requested_scope": "local files and ZIP only"
+}

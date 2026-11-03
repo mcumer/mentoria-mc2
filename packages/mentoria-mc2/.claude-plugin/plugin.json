@@ -1,0 +1,16 @@
+{
+  "name": "mentoria-mc2",
+  "version": "0.1.5",
+  "description": "AI mentoring for experts and course creators: explore apps around your method, compare alternatives and define a first version. Optional personal help through a separate web form; you review and submit any summary yourself. By Michele Cumer. Developed by Grimory.ai. Powered by Grimory.",
+  "author": {
+    "name": "Grimory.ai"
+  },
+  "keywords": [
+    "mentoring",
+    "course-creators",
+    "app-discovery"
+  ],
+  "displayName": "MentorIA MC2",
+  "homepage": "https://mikelmc2.com",
+  "repository": "https://github.com/mcumer/mentoria-mc2"
+}

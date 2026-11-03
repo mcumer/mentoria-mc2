@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate an app opportunity"
+  short_description: "Explore useful apps around a course or method"
+  default_prompt: "Use $app-investigation with what you already know about me and my business to suggest useful app ideas."

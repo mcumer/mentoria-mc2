@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-03",
+  "version": "0.1.5",
+  "plugin": {
+    "archive": "mentoria-mc2-0.1.5.zip",
+    "sha256": "4ddebdbbf8402e2f1418964c23a871bd360930f57e67c005150da4189d32fd7d",
+    "bytes": 111966,
+    "inventory": [
+      ".claude-plugin/plugin.json",
+      ".codex-plugin/plugin.json",
+      "README.md",
+      "assets/mc2-logo.png",
+      "plugin.json",
+      "references/personal-help.md",
+      "skills/app-decision/SKILL.md",
+      "skills/app-decision/agents/openai.yaml",
+      "skills/app-decision/references/project-brief.md",
+      "skills/app-investigation/SKILL.md",
+      "skills/app-investigation/agents/openai.yaml",
+      "skills/app-investigation/references/starter-prompts.md"
+    ]
+  },
+  "gemini": {
+    "archive": "mentoria-mc2-gemini-0.1.5.zip",
+    "sha256": "6bc1a7c760c37ad59ced2ee6ce3180637fd52fca2a188426c0744ec71ea3e503",
+    "bytes": 104268,
+    "inventory": [
+      "SKILL.md",
+      "assets/mc2-logo.png",
+      "references/about.md",
+      "references/decision.md",
+      "references/investigation.md",
+      "references/personal-help.md",
+      "references/project-brief.md",
+      "references/starter-prompts.md"
+    ]
+  },
+  "logo": {
+    "width": 2048,
+    "height": 2048,
+    "sha256": "d805286a04e8620724c29bcd611bc9ff8e6f155a5656fe76742e529102c6bce8"
+  },
+  "description_characters": 286,
+  "source_sha256": {
+    ".claude-plugin/plugin.json": "be0790b7dda97bc4fba8aa6307257bc32f6405f5cc54a1467fdbdfd6bede66f4",
+    ".codex-plugin/plugin.json": "ed95dc3397d91c9ac95a659a4c5d2ea46ec5bd06dabafa4e68e61058f8d81028",
+    "README.md": "525de785ab0ef67da78504bb0d901ef59fbae28a5f9d8332c85923aa1ce21fff",
+    "assets/mc2-logo.png": "d805286a04e8620724c29bcd611bc9ff8e6f155a5656fe76742e529102c6bce8",
+    "plugin.json": "a637c91e26982f244f9b25ae21dd62e88042e84c2007d55dac1a102842e8258e",
+    "references/personal-help.md": "679c66aef58b8ff7f51707e1b8772b6319afb5b0ad799aa00b48f1547782d340",
+    "skills/app-decision/SKILL.md": "fff3bb0341ca9a52900e25c544d9588d2743c7f847de630ec61c6eea4bdd9328",
+    "skills/app-decision/agents/openai.yaml": "ba3adc4a9d1d2b6a45df4611db69a37682decbb8054e6cad94576cf7f7c71263",
+    "skills/app-decision/references/project-brief.md": "6565ba471ff7f817f109b2a229813359ed9cd45ccb0f3dd95b20f0775ab21f09",
+    "skills/app-investigation/SKILL.md": "baa73d753499ff67a4ef0443d01b2c2901698fcec98e44fa91cae9258d054d43",
+    "skills/app-investigation/agents/openai.yaml": "180ffa33032bc495b3710bfd7c5be18516b489cf6fc78c2dd448f1e2b073955d",
+    "skills/app-investigation/references/starter-prompts.md": "5bd9d924ed97cf7f6bf982fd63c1cb0632fd028a17f26fe08d0754ad91cfbb2d"
+  },
+  "checks": {
+    "manifest_consistency_and_lengths": "pass",
+    "contained_references": "pass",
+    "archive_crc_inventory_and_bytes": "pass",
+    "previous_logo_and_brief_preserved": "not run: 0.1.3 archive not available",
+    "no_mcp_app_binding_or_runtime_hook": "pass"
+  },
+  "not_claimed": [
+    "host behavioral validation",
+    "portal validation",
+    "license approval",
+    "developer verification",
+    "installation",
+    "submission",
+    "publication"
+  ]
+}
