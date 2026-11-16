@@ -1,6 +1,6 @@
 # MentorIA MC2 — draft answers for submission
 
-Prepared 2026-11-03 from the repository 0.1.6 candidate and the verified public
+Updated 2026-11-16 for the repository 0.1.8 candidate and the verified public
 contact pages. These are draft factual answers, not completed portal fields,
 legal attestations or a declaration of compliance.
 
@@ -27,17 +27,14 @@ choice or confirmation. No values are invented for these fields.
 
 ## Data handling
 
-**Does the plugin read personal data?** It uses relevant user and business
-context the AI host makes available, including conversation content and supplied
-material. That context can contain personal data. Do not answer “no personal
-data” just because the package has no server. Instructions minimize the summary,
-exclude irrelevant memories and third-party records, and do not request email
-or other contact information in the AI conversation.
+**Does the plugin read personal data?** Reads only. The skills use relevant
+text the person shares in the current chat, which can contain personal data.
+Their instructions exclude saved memory, other chats, project context and
+attachments. They ask the person to omit sensitive and identifiable third-party
+details and leave contact information to the separate website form.
 
 **Does the plugin store personal data?** The plugin has no database or remote
-business storage and does not create Brand, Audience or Avatar records. Chat
-history, memory or files generated at the person's request are governed by the
-AI host's features and policies. Do not promise zero platform storage.
+business storage. The AI host’s policies and account settings govern the chat.
 
 **Does it send data to another service?** The package contains no MCP, API call,
 runtime script, account connection or automatic data transmission. On explicit
@@ -57,8 +54,7 @@ is governed by the selected AI platform. The website notice says request data
 is kept while the request is handled and, if a relationship follows, during
 that relationship. Do not invent a fixed number of days or deletion guarantees.
 
-**Privacy reference:** [published website notice and optional contact flow](https://mikelmc2.com/privacidad#mentoria-contact).
-Do not present that notice as the privacy policy of the AI platform.
+**Privacy reference:** [MentorIA MC2 privacy notice](../packages/mentoria-mc2/PRIVACY.md) and [website contact notice](https://mikelmc2.com/privacidad#mentoria-contact).
 
 **Intended use by under-18s:** no age-targeting declaration has been confirmed
 by the owner. The product description targets experts and course creators;

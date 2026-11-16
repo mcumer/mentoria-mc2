@@ -21,8 +21,7 @@ Before proceeding, read and apply the workflow relevant to the current request:
 - **Continue from discovery to a project:** move between those workflows within
   the same conversation as needed. They are phases, not separate installed tools.
 
-Use relevant memories, project context and business information the host has
-already made available. When enough is known, propose useful ideas straight
+Use only relevant information the person shares as text in this conversation. When enough is known, propose useful ideas straight
 away, explaining the fit; ask only about consequential gaps. Keep uncertain
 or potentially outdated assumptions visible without repeating an intake.
 

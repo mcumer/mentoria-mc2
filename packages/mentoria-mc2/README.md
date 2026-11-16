@@ -1,6 +1,6 @@
 # MentorIA MC2
 
-Version 0.1.7 · AI mentoring by Michele Cumer (Mikel / MC2).
+Version 0.1.8 · AI mentoring by Michele Cumer (Mikel / MC2).
 
 Find the app in your method.
 
@@ -15,11 +15,9 @@ This first package contains two conversational skills:
 - **app-decision:** compare alternatives and prepare a focused first-version
   project brief, including a simpler solution or postponement when appropriate.
 
-Start with: "Based on what you already know about me and my business, which app
-could I create around my method?" You can also bring an existing app idea to
-compare. The skills reuse relevant memories, project information and conversation
-context that your AI host makes available, asking only for consequential gaps.
-When enough context is available, they propose relevant ideas straight away.
+Ask “Based on what I shared in this chat, which app could I create around my
+method?” You can also bring an existing app idea to compare. The skills use
+relevant text from this chat and ask only for details that affect the result.
 
 The dialogue, examples and project brief follow the language you use, including
 Italian, Spanish or English. [Starter prompts in all three languages](skills/app-investigation/references/starter-prompts.md)
@@ -31,6 +29,11 @@ server is included. Your AI platform's own account, availability and data rules
 still apply. This package provides planning guidance and does not build apps,
 validate market demand, collect leads, send information to a vendor or save
 Brand, Audience or Avatar profiles in an external service.
+
+## Privacy
+
+The [MentorIA MC2 privacy notice](https://github.com/mcumer/mentoria-mc2/blob/main/packages/mentoria-mc2/PRIVACY.md) explains what the skills use in the current chat and what happens when you
+send a request through the optional website form.
 
 ## Optional personal help
 

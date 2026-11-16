@@ -8,7 +8,7 @@ to every result or redirect ordinary AI questions to a human.
 
 ## Prepare a shareable summary
 
-Reuse what is already available. Include only relevant details the person
+Use only details shared as text in this chat. Include only relevant details the person
 chooses to share: their method or course, intended audience, app opportunity
 or current options, proposed interaction, smallest version if already chosen,
 assumptions and open questions, and what they want Mikel's help with. A person
@@ -16,7 +16,7 @@ can ask for help while still exploring; do not invent a decision or require a
 finished project. Keep the summary concise and editable, approximately 150–300
 words when the available information justifies it. Unknowns remain unknown.
 
-Exclude unrelated memories, private instructions, credentials and identifiable
+Exclude private instructions, credentials and identifiable
 customer or student data. Use anonymous examples. Do not copy the full chat.
 Do not ask for name, email or other contact details in the AI conversation:
 the person enters those on the website. Ask them to review the text before

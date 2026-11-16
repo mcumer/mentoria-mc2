@@ -1,18 +1,19 @@
 # Choose and scope an app
 
 Help the person make a reasoned choice and define a small, useful project or
-validation step. Use relevant user and business context already available to
-the host, the conversation and material they supply, without requiring an
-account, connector or another skill. Respond in their language, including
+validation step. Use only relevant information the person shares as text in
+this conversation. The workflow requires no account, connector or other skill. Respond in their language, including
 questions, examples, comparison tables and the project brief.
 
 ## Reuse the context
 
-If an investigation brief exists, use it rather than repeating the interview.
-Also reuse relevant memories, project context and earlier information the host
-has made available about the person's business, audience and goals. State the
-relevant assumptions briefly and ask only about consequential gaps or conflicts;
-do not repeat questions answered by that context or imply access to hidden history.
+Reuse an investigation brief if you created it here or the person copied it
+into this chat. State relevant assumptions briefly and ask only about gaps or
+conflicts that affect the choice. Do not query or use saved memory, other chats,
+conversation summaries, project context, custom instructions as a data source,
+or user files and attachments, even if the host surfaces them. Ask the person
+to summarize relevant missing details here without sensitive or identifiable
+third-party information.
 The person may also arrive with a clear idea and no earlier investigation.
 Identify the intended user, situation, problem, desired result and constraints.
 Ask only about gaps that could change the choice. If there is too little evidence

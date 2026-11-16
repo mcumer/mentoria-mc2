@@ -8,7 +8,7 @@
   la precedente cartella `grimory-app-mentoring` resta storica, senza sviluppi
   paralleli. Nessun altro repository, branch o worktree.
 - Il repository inizialmente vuoto usa la struttura packages/mentoria-mc2;
-  per Anthropic il plugin path è quello. Manifest corrente 0.1.6 con repository reale e icona Claude originale.
+  per Anthropic il plugin path è quello. Manifest corrente 0.1.8 con repository reale e icona Claude originale.
 - Commit/push e preparazione delle candidature sono nello scope corrente;
   le precedenti restrizioni SOLO FILE sono storico e non revocano questa
   autorizzazione. Non installare copie personali come effetto collaterale.
@@ -84,9 +84,12 @@ Non è stato inizializzato un repository Git né configurato un remote.
   installazione o flusso end-to-end validati senza prova.
 - Aggiornare soltanto il proprio todo; indice/generale sono dell'orchestratore.
 
-## Personalizzazione e lingue — 0.1.1
+## Contesto delle skill e lingue
 
-Riutilizzare esplicitamente il contesto pertinente già reso disponibile dal client (memorie, istruzioni della persona, progetto e conversazione). Se sufficiente, proporre app pertinenti senza ripetere un questionario. Le informazioni non disponibili non vanno inventate.
+Dalla 0.1.8 le skill usano soltanto le informazioni pertinenti che la
+persona scrive nella chat corrente. Memoria, altre chat, contesto di progetto
+e allegati sono fuori dal flusso. L’informativa del pacchetto è
+`packages/mentoria-mc2/PRIVACY.md` e il README contiene il link pubblico.
 
 Prompt di avvio ed etichette UI hanno un testo configurato unico; non inventare campi di traduzione per lingua. Esempi EN/IT/ES inclusi come risorsa conversazionale, dialogo e brief nella lingua della persona. Dettaglio: `docs/prompt-languages.md`.
 

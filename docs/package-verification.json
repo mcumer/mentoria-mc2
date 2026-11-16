@@ -1,15 +1,16 @@
 {
   "date": "2026-11-03",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "plugin": {
-    "archive": "mentoria-mc2-0.1.7.zip",
-    "sha256": "68a311c214fe68f9a25257000d6847fc6fc29445323411a969df2c219f459e5a",
-    "bytes": 205787,
+    "archive": "mentoria-mc2-0.1.8.zip",
+    "sha256": "066dc1b7ceb25f54a174f05dfa78d57cdbfc0031e9458a6173e8a0abdbdeb512",
+    "bytes": 206784,
     "inventory": [
       ".claude-plugin/icon.png",
       ".claude-plugin/plugin.json",
       ".codex-plugin/plugin.json",
       "LICENSE",
+      "PRIVACY.md",
       "README.md",
       "assets/mc2-logo.png",
       "plugin.json",
@@ -23,9 +24,9 @@
     ]
   },
   "gemini": {
-    "archive": "mentoria-mc2-gemini-0.1.7.zip",
-    "sha256": "16ce0f94e22f00496fd925d3cb37ef0bee5a686371ee495f7285a32b24e07164",
-    "bytes": 104268,
+    "archive": "mentoria-mc2-gemini-0.1.8.zip",
+    "sha256": "d48c65f4c0e7bb758b07aa2f6a5807e0e0a681a568900d3b2ce55fcdbbe135f7",
+    "bytes": 104202,
     "inventory": [
       "SKILL.md",
       "assets/mc2-logo.png",
@@ -45,19 +46,20 @@
   "description_characters": 286,
   "source_sha256": {
     ".claude-plugin/icon.png": "d805286a04e8620724c29bcd611bc9ff8e6f155a5656fe76742e529102c6bce8",
-    ".claude-plugin/plugin.json": "ad7fba06504450d5a81c0efeaddd7ae729738a3af59f3608a34594f19084f25b",
-    ".codex-plugin/plugin.json": "321755c89475384d9db5b2ab0a928ae574006e99f4043b428d491cfdcfeceabb",
+    ".claude-plugin/plugin.json": "4c8ead3351dabcd0622322bc61bf9618679f0d0c27d7d63b41403735c25eceb2",
+    ".codex-plugin/plugin.json": "eecdc8f21c0b8b2eeb03e6d3c7d95a7956e2cf36f7d1ccfc8b1e214bdc945720",
     "LICENSE": "08e65192ca75f5e314479d2f33f2d4d6cbb47acd4bd82aeb4a64176d938a8bf3",
-    "README.md": "f8c3d87c360cf58154701634f88678bbacc6698a8b0f179ede7bc948ec039af0",
+    "PRIVACY.md": "636c7cac1b341e7ae116ff0a12073bf1688ff1a6466bbd376296d51304f462a2",
+    "README.md": "2888dc734c78bdf205b5a6452e367bf1ec7fa842dffa0ed40f5614fa5ac954e3",
     "assets/mc2-logo.png": "d805286a04e8620724c29bcd611bc9ff8e6f155a5656fe76742e529102c6bce8",
-    "plugin.json": "8116f64cf8115d9b3dcaf2ea4fcc21339726a0d6cdae3e876622774d640e6c63",
-    "references/personal-help.md": "679c66aef58b8ff7f51707e1b8772b6319afb5b0ad799aa00b48f1547782d340",
-    "skills/app-decision/SKILL.md": "fff3bb0341ca9a52900e25c544d9588d2743c7f847de630ec61c6eea4bdd9328",
-    "skills/app-decision/agents/openai.yaml": "ba3adc4a9d1d2b6a45df4611db69a37682decbb8054e6cad94576cf7f7c71263",
+    "plugin.json": "8e6e918faf69a20e7830486f908c38b606ce76f4a2eecc9a722676c384a75a7f",
+    "references/personal-help.md": "e796a894b5da1fa8f1f0dc143e0a848eaf54b5b56ad7fc7e8e177d1f170478c6",
+    "skills/app-decision/SKILL.md": "ce80a18d639377d3086b168edb7b88d1d798c8e90286d1942a8826dedd201475",
+    "skills/app-decision/agents/openai.yaml": "8284d5ed184e9aee3b94c09ecf65448ee1572379e261043f28f163bceffadbc2",
     "skills/app-decision/references/project-brief.md": "6565ba471ff7f817f109b2a229813359ed9cd45ccb0f3dd95b20f0775ab21f09",
-    "skills/app-investigation/SKILL.md": "baa73d753499ff67a4ef0443d01b2c2901698fcec98e44fa91cae9258d054d43",
-    "skills/app-investigation/agents/openai.yaml": "180ffa33032bc495b3710bfd7c5be18516b489cf6fc78c2dd448f1e2b073955d",
-    "skills/app-investigation/references/starter-prompts.md": "5bd9d924ed97cf7f6bf982fd63c1cb0632fd028a17f26fe08d0754ad91cfbb2d"
+    "skills/app-investigation/SKILL.md": "6fb534050d2e98af560291997d8cca2c44aa9e1499763adba0782054e950e180",
+    "skills/app-investigation/agents/openai.yaml": "4038aa9322fc3ab22b704ab0035dc44ff4adf0b56ad564674da401a5cad1546a",
+    "skills/app-investigation/references/starter-prompts.md": "e8cd9c25104e87b8849ab0a492d00426b5a156609de357bb9ba065244904aa86"
   },
   "checks": {
     "manifest_consistency_and_lengths": "pass",

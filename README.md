@@ -1,7 +1,7 @@
 # MentorIA MC2 — sorgenti e preparazione pubblicazione
 
 Mentoría con AI di Michele Cumer, sviluppata da Grimory.ai. Powered by Grimory.
-Versione candidata **0.1.7**, preparata il 2026-11-16.
+Versione candidata **0.1.8**, preparata il 2026-11-16.
 
 La fonte canonica è `packages/mentoria-mc2/`: due skill per esplorare un'app
 attorno a un metodo e definire una prima versione. Il risultato AI è autonomo;
@@ -33,6 +33,6 @@ Per Anthropic, indicare il repository sopra e il plugin path
 **packages/mentoria-mc2**. Il manifest Claude è in quella cartella.
 Gli archivi si ricostruiscono localmente con lo script; dist è ignorata da Git.
 
-La versione 0.1.7 include la [licenza d’uso gratuito](packages/mentoria-mc2/LICENSE). Paesi, identità verificata e verifiche dei portali
+La versione 0.1.8 usa il testo della chat corrente e include la [privacy di MentorIA](packages/mentoria-mc2/PRIVACY.md). La [licenza d’uso gratuito](packages/mentoria-mc2/LICENSE) si applica al pacchetto. Paesi, identità verificata e verifiche dei portali
 restano passaggi distinti. Il caricamento dei sorgenti non implica una
 pubblicazione nei cataloghi. Stato: [docs/readiness.md](docs/readiness.md).
