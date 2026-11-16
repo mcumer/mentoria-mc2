@@ -1,6 +1,6 @@
 # MentorIA MC2
 
-Version 0.1.6 · AI mentoring by Michele Cumer (Mikel / MC2).
+Version 0.1.7 · AI mentoring by Michele Cumer (Mikel / MC2).
 
 Find the app in your method.
 
@@ -62,9 +62,9 @@ plugin-import flow; the Gemini skill requires its separate export.
 
 Sources: [mcumer/mentoria-mc2](https://github.com/mcumer/mentoria-mc2).
 A source repository is separate from an approved public catalog listing.
-The license is pending the creator's choice. Inspect the actual review status
-before claiming directory availability. This archive grants no new license
-by itself.
+The [MentorIA MC2 Free Use License](LICENSE) allows free personal and
+professional use. Modification, resale, and redistribution of the plugin
+files require separate permission.
 
 The workflow is an initial implementation of the agreed investigation and
 decision plan. It is not a verified reproduction of the creator's entire

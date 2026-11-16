@@ -1,5 +1,8 @@
 # MentorIA MC2 — passaggio ai portali, 2026-11-03
 
+Il 16 novembre il proprietario ha confermato la licenza d’uso gratuito inclusa
+nel pacchetto 0.1.7. Le verifiche sotto si riferiscono alla 0.1.6.
+
 Repository canonico pubblico: https://github.com/mcumer/mentoria-mc2.
 Prima consegna su main: `83ed57360fb10c4b76fbd622874d6cc5909b2287` (0.1.5).
 Plugin path Anthropic: `packages/mentoria-mc2`, branch `main`.

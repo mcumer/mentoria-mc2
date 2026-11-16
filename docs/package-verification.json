@@ -1,14 +1,15 @@
 {
   "date": "2026-11-03",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "plugin": {
-    "archive": "mentoria-mc2-0.1.6.zip",
-    "sha256": "4b497610a4625f43e8a6f84cfeef90e46f18b01e9f65a6a67a23991ac336ae49",
-    "bytes": 205215,
+    "archive": "mentoria-mc2-0.1.7.zip",
+    "sha256": "68a311c214fe68f9a25257000d6847fc6fc29445323411a969df2c219f459e5a",
+    "bytes": 205787,
     "inventory": [
       ".claude-plugin/icon.png",
       ".claude-plugin/plugin.json",
       ".codex-plugin/plugin.json",
+      "LICENSE",
       "README.md",
       "assets/mc2-logo.png",
       "plugin.json",
@@ -22,8 +23,8 @@
     ]
   },
   "gemini": {
-    "archive": "mentoria-mc2-gemini-0.1.6.zip",
-    "sha256": "d3dd2b932966e14639cf9ecc297c6858ced2e1c61a3cb8100980a1501d306b05",
+    "archive": "mentoria-mc2-gemini-0.1.7.zip",
+    "sha256": "16ce0f94e22f00496fd925d3cb37ef0bee5a686371ee495f7285a32b24e07164",
     "bytes": 104268,
     "inventory": [
       "SKILL.md",
@@ -44,11 +45,12 @@
   "description_characters": 286,
   "source_sha256": {
     ".claude-plugin/icon.png": "d805286a04e8620724c29bcd611bc9ff8e6f155a5656fe76742e529102c6bce8",
-    ".claude-plugin/plugin.json": "64bbdedee95037a7b9784e03b7fa47513505685ebe354051a59bbbbaccd01066",
-    ".codex-plugin/plugin.json": "c69c279e9766fb687d314361e87d53679d0e5290bfa0ed90342ad50ca386f493",
-    "README.md": "59950286c40ad97ba6801dcfe878eb7ba983232860ea4a27c7d15ef4a2583def",
+    ".claude-plugin/plugin.json": "ad7fba06504450d5a81c0efeaddd7ae729738a3af59f3608a34594f19084f25b",
+    ".codex-plugin/plugin.json": "321755c89475384d9db5b2ab0a928ae574006e99f4043b428d491cfdcfeceabb",
+    "LICENSE": "08e65192ca75f5e314479d2f33f2d4d6cbb47acd4bd82aeb4a64176d938a8bf3",
+    "README.md": "f8c3d87c360cf58154701634f88678bbacc6698a8b0f179ede7bc948ec039af0",
     "assets/mc2-logo.png": "d805286a04e8620724c29bcd611bc9ff8e6f155a5656fe76742e529102c6bce8",
-    "plugin.json": "fd9aea0bae46aed4c443b5ec1487515973ff25e28dd448c318c8fe8d96709395",
+    "plugin.json": "8116f64cf8115d9b3dcaf2ea4fcc21339726a0d6cdae3e876622774d640e6c63",
     "references/personal-help.md": "679c66aef58b8ff7f51707e1b8772b6319afb5b0ad799aa00b48f1547782d340",
     "skills/app-decision/SKILL.md": "fff3bb0341ca9a52900e25c544d9588d2743c7f847de630ec61c6eea4bdd9328",
     "skills/app-decision/agents/openai.yaml": "ba3adc4a9d1d2b6a45df4611db69a37682decbb8054e6cad94576cf7f7c71263",
